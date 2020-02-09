@@ -1,6 +1,7 @@
 # Geralt of Rivia Tribute Page
 
 A tribute page to the White Wolf. I suppose I'm Dandelion.
+
 https://dabrentmeister.github.io/tribute/
 
 ### Features
