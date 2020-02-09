@@ -1,7 +1,7 @@
 # Geralt of Rivia Tribute Page
 
 A tribute page to the White Wolf. I suppose I'm Dandelion.
-Using HTML, JS, and CSS.
+https://dabrentmeister.github.io/tribute/
 
 ### Features
 
@@ -15,8 +15,7 @@ Using HTML, JS, and CSS.
 
 ## Usage
 
-Download the .html file to save on system and open in browser.
-(Once deployed) Have a look at my tribute.
+Click link at top.
 
 ## Built With
 
