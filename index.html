@@ -11,11 +11,15 @@
 		#main {
 			/*Gray background */
 			background: #eee;
+			background-repeat: no-repeat;
+			/*cover entire element*/
+			background-size: cover;
 			font-family: Source Sans Pro, Arial, sans-serif;
 			font-size: 1.8rem;
 		}
 		#top {
 			text-align: center;
+			
 			background-position: center 200px;
 			padding: 5px;
 		}
@@ -29,6 +33,7 @@
 			height: auto;
 			/*scalable for smaller screens*/
 			max-width: 100%;
+			min-width: 50%;
 		}
 		#img-caption {
 			text-align: center;
@@ -39,6 +44,14 @@
 			padding: 10px;
 			margin: auto 200px;
 		}
+		/*for mobile devices*/
+		@media (max-width: 600px) {
+			#img-div {
+			padding: 10px;
+			margin: auto;
+			/*font-size: 2rem;*/
+			}
+		} 
 		ul {
 			/*constricting margins for better layout*/
 			margin: 0 auto 50px auto;
@@ -49,7 +62,7 @@
 		}
 		h3 {
 			text-align: center;
-			margin: 50px 0;
+			margin: 30px 0;
 			padding-bottom: 20px;
 			font-size: 2.8rem;
 		}
@@ -58,6 +71,11 @@
 			font-style: italic;
 			text-align: left;
 			margin: 0 auto 50px auto;
+		}
+		@media print {
+			.screen-only {
+				display: none;
+			}
 		}
 	</style>
 </head>
@@ -93,7 +111,7 @@
 				<cite>-- Geralt</cite>
 			</blockquote>
 		</div>
-		<h3>
+		<h3 class="screen-only">
 			If you have time, you should read more about the White Wolf on his 
 			<a id="tribute-link" target="_blank" href="https://witcher.fandom.com/wiki/Geralt_of_Rivia">
 			Wiki entry
