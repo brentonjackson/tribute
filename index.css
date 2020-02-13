@@ -23,36 +23,20 @@ html {
     font-family: Source Sans Pro, Arial, sans-serif;
     font-size: 18px;
 }
-
 body {
-    /*Gray background */
-    /*background: #eee;*/
-    /*background-color: hsl(199,33%,67%);*/
     box-shadow: 0px 0px 8px hsl(0,0%,30%);
-    font-size: 1rem;
+    /*font-size: 1rem;*/
 }
-
 h1 {
-    /*font-size: 4rem;*/
     color: hsl(4,9%,15%);
-    /*text-shadow: px 2px 2px hsl(4,9%,60%);*/
 }
-
-
-/*.tribute-info {
-    color: hsl(0,0%,10%);
-}*/
-
 h3 {
     text-align: center;
-    margin: 5vh 0 2vh;
-    padding-bottom: 1vh;
     color: hsl(4,9%,25%);
-    /*text-shadow: 2px 2px 2px hsl(4,9%,60%);*/
 }
-
 .screen-only {
-    font-size: 1.2rem;
+    text-align: center;
+    color: hsl(4,9%,25%);
 }
 a:link {
     color: hsl(4,9%,10%);
@@ -61,21 +45,13 @@ a:link {
 a:hover {
     text-decoration: underline overline;
 }
+/*hide rows*/
 .w3-third > h1 {
     visibility: hidden;
 }
 ul {
     text-align: left;
 }
-/*footer {
-    text-align: center;
-    background-color: hsl(199,33%,17%);
-    // margin: 0px 10vw;
-    padding: 1rem 2rem;
-}*/
-/*footer p {
-    color: hsl(199,33%,92%);
-}*/
 @media print {
     .screen-only {
         display: none;
