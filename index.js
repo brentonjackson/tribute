@@ -13,6 +13,6 @@ function hideFoot() {
 }
 
 function toProfile() {
-	window.location='http://github.com/dabrentmeister/tribute';
+	window.location='http://github.com/brentonjackson/tribute';
 }
 
