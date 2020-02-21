@@ -2,7 +2,7 @@
 
 A tribute page to the White Wolf. I suppose I'm Dandelion.
 
-https://dabrentmeister.github.io/tribute/
+https://brentonjackson.github.io/tribute/
 
 ## Usage
 
@@ -22,7 +22,7 @@ Feel free to contribute!
 
 ## Authors
 
-* **Brenton Jackson** - *Initial work* - (https://github.com/daBrentMeister)
+* **Brenton Jackson** - *Initial work* - (https://github.com/brentonjackson)
 
 ## Acknowledgments
 
